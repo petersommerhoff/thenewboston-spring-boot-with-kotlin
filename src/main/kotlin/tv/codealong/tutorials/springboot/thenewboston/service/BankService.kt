@@ -6,7 +6,7 @@ import tv.codealong.tutorials.springboot.thenewboston.datasource.BankDataSource
 import tv.codealong.tutorials.springboot.thenewboston.model.Bank
 
 @Service
-class BankService(@Qualifier("network") private val dataSource: BankDataSource) {
+class BankService(@Qualifier("mock") private val dataSource: BankDataSource) {
 
     fun getBanks(): Collection<Bank> = dataSource.retrieveBanks()
 

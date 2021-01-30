@@ -4,7 +4,7 @@ import org.springframework.stereotype.Repository
 import tv.codealong.tutorials.springboot.thenewboston.datasource.BankDataSource
 import tv.codealong.tutorials.springboot.thenewboston.model.Bank
 
-@Repository
+@Repository("mock")
 class MockBankDataSource : BankDataSource {
 
     val banks = mutableListOf(

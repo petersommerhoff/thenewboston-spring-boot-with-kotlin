@@ -1,9 +1,7 @@
 package tv.codealong.tutorials.springboot.thenewboston.service
 
-import io.mockk.every
 import io.mockk.mockk
 import io.mockk.verify
-import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
 import tv.codealong.tutorials.springboot.thenewboston.datasource.BankDataSource
 
